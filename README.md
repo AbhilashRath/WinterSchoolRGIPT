@@ -8,4 +8,4 @@ It is predicted that by 2020 there will be 14-25 million vacant jobs that we won
 
 Science & Technical Committee, RGIPT proudly invites you to be a part of two day-long intensive hands-on training programs on “Computational Fluid Mechanics” and “Data Science” to give a great head start and a solid foundation in our venture of acquiring new skills.
 
-[Playstore](https://play.google.com/store/apps/details?id=com.rgipt.winterschoolrgipt&hl=en)
+[Link to Playstore](https://play.google.com/store/apps/details?id=com.rgipt.winterschoolrgipt&hl=en)
