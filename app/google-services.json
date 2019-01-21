@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "305005087796",
+    "firebase_url": "https://winterschoolrgipt.firebaseio.com",
+    "project_id": "winterschoolrgipt",
+    "storage_bucket": "winterschoolrgipt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305005087796:android:b167b4ec6d6586b2",
+        "android_client_info": {
+          "package_name": "com.rgipt.winterschoolrgipt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305005087796-tr9sddebi842olp6c8u6nn4mgsq0j3r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rgipt.winterschoolrgipt",
+            "certificate_hash": "cf6ec09e4c76ec3c12b1a363e3b7fb38072f7645"
+          }
+        },
+        {
+          "client_id": "305005087796-l20ejfidi2k9il0e2lhbrvpo6827bos7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkYJpxG2x6F5JRtcJq8-lgY_XM3dOj8cU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305005087796-l20ejfidi2k9il0e2lhbrvpo6827bos7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

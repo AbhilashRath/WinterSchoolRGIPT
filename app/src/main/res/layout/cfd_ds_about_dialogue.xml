@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/about_cfd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:maxLines="20"
+        android:scrollbars="none"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Computational Fluid Mechanics saw it’s emergence in the oil and gas industry in the 90s and has since grown to become fundamental to it’s effective functioning. The predictive capabilities of the fluid flow modelling have become essential to many oil and gas companies. Computational fluid dynamics is that branch of fluid mechanics which uses the algorithms and numerical methods for solving the real-life problems involving fluid flow. CFD is a powerful tool in the hands of professionals to understand problems ranging from an oil reservoir, on-shore or off-shore, it’s transfer through pipe lines or the refinery. CFD provides the virtual environment to work, through which several decisions, preventions, equipment designing and improvements can be made efficiently which saves time and money.\n\n
+
+This 2 day workshop is sure to cover all the basics of this highly desired skill. This course will address all the basic concepts hence previous experience on the topic is not required and all attendees will be brought to the same level. This will also offer a practical experience on case studies and peer learning through group discussions leaving you enriched and motivated to take up the skill in detail professionally."/>
+
+    <TextView
+        android:id="@+id/about_ds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:scrollbars="none"
+        android:visibility="gone"
+        android:maxLines="20"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="In the wake of fluctuating oil prices, it has become important to discover and adopt new technologies to improve operational efficiency to cut costs and improve predictability. Machine learning algorithms aided by a large number of computer servers have the ability to process billions of data points and use several techniques such as case based learning, drilling floor automation etc to supply meaningful insights . These techniques can be employed throughout all streams of the industry but it lags as a whole in employing Machine learning to it's full potential. Data must be made more available to better decision making algorithms. In such times it should become the primary focus of us, the future energy suppliers to acquire these skills with expertise to improve the situations for coming years."/>
+
+
+    <TextView
+        android:id="@+id/about_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_margin="20dp"
+        android:scrollbars="none"
+        android:maxLines="15"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="As an engineer our fundamental task is to build stuff, find creative solutions to challenging problems, and do what man once thought to be impossible. If you have been working on a project then Winter School – 2019 invites you to exhibit your project and stand a chance to win exciting prizes. Remember what Steve Jobs said, those who are crazy enough to think that they can change the world, are the ones who do."/>
+
+    <TextView
+        android:id="@+id/about_poster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:scrollbars="none"
+        android:maxLines="20"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Winter School – 2019 would provide the participating students a platform to showcase their work in field of Digital Transformation in Oil \u0026 Gas Industry in form of a Poster Presentation. Students can present their ideas, research work or review work with an academic or industrial focus on theme. The primary motive of this competition is to enhance the ability to deliver a visual presentation."/>
+
+
+    <TextView
+        android:id="@+id/about_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:scrollbars="none"
+        android:maxLines="20"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Payment Methods:\n
+
+1. UPI ID: thegirishjoshi@okaxis\n
+2. Google Pay Number: +91-8890947171\n
+3. Bank Account Details: \n
+          A/C No: 35081651426\n
+          A/C Holder Name: Girish Joshi\n
+          IFSC Code: SBIN0010485\n
+          Bank Name: State Bank of India"/>
+</RelativeLayout>

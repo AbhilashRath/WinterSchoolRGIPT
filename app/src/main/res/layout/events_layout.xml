@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="match_parent"
+        android:background="#fff68f"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/shape_image"
+            android:onClick="project"
+            android:adjustViewBounds="true"
+            android:src="@drawable/projectposter"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:elevation="10dp"
+            android:background="@drawable/shape_image"
+            android:onClick="poster"
+            android:adjustViewBounds="true"
+            android:src="@drawable/posterposter"/>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

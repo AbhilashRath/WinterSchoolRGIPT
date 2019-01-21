@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/rootLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtpayment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="Since the seats are limited we urge you to register as soon as possible to exploit the opportunity. These courses will help you to gain skills which are highly sought by the industry.\n\n
+You can register yourself to Winter School 2k19 by making a payment of ₹1250/- (Tap On Image) followed by filling this form. This payment includes following:\n
+
+1. School Registration Fee (Certified)\n
+2. Accommodation Fee @ RGIPT\n
+3. School Kit (Notebook \u0026 Pens)\n
+4. Snacks Arrangement"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/feepublic"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-20dp"
+            android:onClick="paymentmode"
+            android:layout_height="wrap_content"
+            app:srcCompat = "@drawable/feepublic"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/feepublic">
+            <Button
+                android:id="@+id/register_rgipt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="#4285F4"
+                android:text="REGISTER @ RGIPT"
+                android:layout_marginRight="5dp"
+                android:elevation="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="5dp"/>
+            <Button
+                android:id="@+id/register_public"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#4285F4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="REGISTER @ PUBLIC"
+                android:elevation="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="10dp"/>
+
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

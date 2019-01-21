@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/bghome"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.33333"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_height="0dp">
+        <ImageView
+            android:id="@+id/wslogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/wslogo"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.33333">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19th and 20th January"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/SnT"
+            android:layout_below="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Science \u0026 Technical Committee, RGIPT"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayouttimer"
+            android:layout_below="@+id/SnT"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/timer_back"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtTimerDay"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/timer_back"
+                android:text="00"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/txtTimerHour"
+                android:layout_width="0dp"
+                android:background="@drawable/timer_back"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="00"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/txtTimerMinute"
+                android:background="@drawable/timer_back"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#000000"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/txtTimerSecond"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/timer_back"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="#000000"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/winterschool"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic|bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_below="@+id/SnT" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.3333">
+
+        <VideoView
+            android:id="@+id/sharp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="READY TO SHARPEN YOUR SKILL SET?"
+            android:elevation="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/knowmore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="KNOW\nMORE"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="10dp"
+            android:background="#4285F4"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
